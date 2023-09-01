@@ -1,0 +1,13 @@
+[
+    { "nombre": "Manzana", "precio": 0.50 },
+    { "nombre": "Pera", "precio": 0.45 },
+    { "nombre": "Pares de zapatos", "precio": 65.00 },
+    { "nombre": "Laptop", "precio": 375.00 },
+    { "nombre": "Pizza", "precio": 8.75 },
+    { "nombre": "Pastel", "precio": 20.00 },
+    { "nombre": "Pantalon", "precio": 45.00 },
+    { "nombre": "Pescado", "precio": 5.00 },
+    { "nombre": "Chocolate", "precio": 1.50 },
+    { "nombre": "Escoba", "precio": 2.50 }
+]
+  

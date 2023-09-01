@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  text-align: left;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.product-picker {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.product-picker select {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  color: #333;
+  width: 35%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-picker button {
+  padding: 10px 16px;
+  background-color: #808080;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 35%;
 }
+
+.shopping-list {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.shopping-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.shopping-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  border-bottom: 1px solid #000;
+}
+
+.shopping-list button {
+  padding: 6px 12px;
+  background-color: #808080;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.shopping-list input[type="number"] {
+  padding: 6px 12px;
+  width: 60px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
